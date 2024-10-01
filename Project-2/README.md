@@ -2,8 +2,8 @@
 
 This repository contains the following types of files:
 
-`.md`: Markdown files (human-readable text) for GitHub
+`.md`: Markdown (human-readable text) for GitHub
 
-`.Rmd`: R Markdown files (Markdown + R code) 
+`.Rmd`: R Markdown (Markdown + R code) 
 
-`.pdf`: PDF files (static, printable versions of .Rmd files)
+`.pdf`: PDF (static, printable versions of `.Rmd` files)
