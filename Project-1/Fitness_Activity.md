@@ -94,7 +94,7 @@ hist(total_steps$Total_Steps,
      xlab = "Bins", ylab = "Frequency", col = "blue")
 ```
 
-![](Fitness_Activity_files/figure-gfm/unnamed-chunk-5-1.png)<!-- -->
+![](Project-1/figures/unnamed-chunk-5-1.png)<!-- -->
 
 The bins represent the number of steps taken each day, while the
 frequency shows how many days fall into each bin. The data appears to
@@ -151,7 +151,7 @@ ggplot(avg_steps, aes(x = time_of_day, y = steps)) +
   theme_minimal()                  # Use a minimal theme for better aesthetics
 ```
 
-![](Fitness_Activity_files/figure-gfm/unnamed-chunk-7-1.png)<!-- -->
+![](Project-1/figures/unnamed-chunk-7-1.png)<!-- -->
 
 Initially, a mistake was made by treating the interval variable as an
 integer, representing the number of intervals. This has been corrected
@@ -183,7 +183,7 @@ aggr(data, col = c('navyblue', 'yellow'),
      ylab = c("Missing data in Raw Data", "Pattern"))
 ```
 
-![](Fitness_Activity_files/figure-gfm/unnamed-chunk-8-1.png)<!-- -->
+![](Project-1/figures/unnamed-chunk-8-1.png)<!-- -->
 
     ## 
     ##  Variables sorted by number of missings: 
@@ -223,7 +223,7 @@ aggr(new_dat, col = c('navyblue', 'yellow'),
      ylab = c("Missing data after KNN Imputation", "Pattern"))
 ```
 
-![](Fitness_Activity_files/figure-gfm/unnamed-chunk-10-1.png)<!-- -->
+![](Project-1/figures/unnamed-chunk-10-1.png)<!-- -->
 
     ## 
     ##  Variables sorted by number of missings: 
@@ -249,7 +249,7 @@ hist(new_total_steps$Total_Steps,
      xlab = "Bins", ylab = "Frequency", col = "blue")
 ```
 
-![](Fitness_Activity_files/figure-gfm/unnamed-chunk-11-1.png)<!-- -->
+![](Project-1/figures/unnamed-chunk-11-1.png)<!-- -->
 
 ``` r
 # Calculate summary statistics
