@@ -165,7 +165,7 @@ aggr(storm_data_clean, col = c('navyblue', 'yellow'), numbers = TRUE, sortVars =
      cex.axis = 0.3, gap = 1, ylab = c("Missing Data", "Pattern"))
 ```
 
-![](Analysis_of_Weather_Events_files/figure-markdown_github/unnamed-chunk-4-1.png)
+![](https://github.com/Skgit18/R-Projects/blob/main/Project-2/figures/unnamed-chunk-4-1.png)
 
     ## 
     ##  Variables sorted by number of missings: 
@@ -330,7 +330,7 @@ ggplot(impact2[1:10, ],
        y = "Total Health Impact (Fatalities + Injuries)")
 ```
 
-![](Analysis_of_Weather_Events_files/figure-markdown_github/unnamed-chunk-10-1.png)
+![](https://github.com/Skgit18/R-Projects/blob/main/Project-2/figures/unnamed-chunk-10-1.png)
 
 Now, this is more visually appealing than just looking at some numbers
 on the screen. There is another way to examine the impact of severe
@@ -505,7 +505,7 @@ suppressMessages(
 )
 ```
 
-![](Analysis_of_Weather_Events_files/figure-markdown_github/unnamed-chunk-14-1.png)
+![](https://github.com/Skgit18/R-Projects/blob/main/Project-2/figures/unnamed-chunk-14-1.png)
 
 Just like the Wildfires, `ggplot` is on Fire!
 
