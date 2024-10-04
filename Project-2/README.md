@@ -9,4 +9,4 @@ This repository contains the following types of files:
 `.pdf`: PDF (static, printable versions of `.Rmd` files)
 
 
-*** Check out the `.md` file first. ***
+***Check out the `.md` file first.***
