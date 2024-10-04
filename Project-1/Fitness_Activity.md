@@ -249,7 +249,7 @@ hist(new_total_steps$Total_Steps,
      xlab = "Bins", ylab = "Frequency", col = "blue")
 ```
 
-![](Project-1/figures/unnamed-chunk-11-1.png)<!-- -->
+![](https://github.com/Skgit18/R-Projects/blob/main/Project-1/figures/unnamed-chunk-11-1.png)<!-- -->
 
 ``` r
 # Calculate summary statistics
