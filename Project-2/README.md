@@ -7,3 +7,6 @@ This repository contains the following types of files:
 `.Rmd`: R Markdown (Markdown + R code) 
 
 `.pdf`: PDF (static, printable versions of `.Rmd` files)
+
+
+*** Check out the `.md` file first. ***
